@@ -13,7 +13,7 @@ var minEta;
 var maxEta;
 
 if (eta < 18){
-  minEta=(kmPrice * 20) / 100;
+  minEta= ( km * 0,21) - ( km * 0,21) * 20 / 100
 } else {
   minEta = kmPrice
 }
@@ -21,7 +21,7 @@ if (eta < 18){
 // console.log("Teen Price offer" + minEta);
 
 if (eta > 65) {
-  maxEta = (kmPrice * 40) / 100;
+  maxEta = ( km * 0,21) - ( km * 0,21) * 40 / 100
 }
 else{
   maxEta = kmPrice
